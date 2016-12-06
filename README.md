@@ -1,5 +1,6 @@
-
 # TDD Lab Exercise 1
+
+Oefeningen voor http://wgroeneveld.github.io/tdd-course
 
 ## Technologie
 
