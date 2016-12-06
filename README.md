@@ -12,7 +12,7 @@ In Javascript. Test Harnas met Jasmine. [Zie ook Jasmine documentatie](https://j
 De Artisanale bakkersvereniging vertrouwt op jullie technische kunde om een oplossing te voorzien voor hun probleem. Er wordt veel Hasseltse speculaas gebakken maar niemand weet exact wat nu de béste speculaas is. Schrijf een methode die de speculaas evalueert, gebaseerd op de ingrediënten. De functie ziet er als volgt uit:
 
 ```javascript
-	beoordeelSpeculaas(speculaas) {
+	function beoordeelSpeculaas(speculaas) {
 		...
 	}
 ```
