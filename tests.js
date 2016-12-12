@@ -1,7 +1,7 @@
 
 describe("het beoordelen van een speculaas", function() {
 
-	it("zou hoog moeten scoren voor een Hasseltse speculaas met veel ingrediënten", function() {
+	it("zou een hoge som moete zijn voor een Hasseltse speculaas met veel ingrediënten", function() {
 		var hasseltseSpecuclaas = {
 			boter: 500,
 			bloem: 500,
@@ -17,7 +17,7 @@ describe("het beoordelen van een speculaas", function() {
 		expect(beoordeling).toBe(2260);
 	});
 
-	it("zou laag moeten scoren voor een goedkope speculaas", function() {
+	it("zou een lage som moeten zijn voor speculaas met minder ingredienten", function() {
 		var goedkopeSpeculaas = {
 			boter: 500,
 			bloem: 500,
@@ -27,6 +27,10 @@ describe("het beoordelen van een speculaas", function() {
 		var beoordeling = beoordeelSpeculaas(goedkopeSpeculaas);
 		
 		expect(beoordeling).toBe(1560);
+	});
+
+	it("zou het minimum moeten scoren voor speculaas zonder ingredienten", function() {
+		expect(beoordeelSpeculaas({})).toBe(0);
 	});
 
 });
