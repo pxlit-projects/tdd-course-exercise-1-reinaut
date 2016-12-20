@@ -1,7 +1,7 @@
 
 describe("het beoordelen van een speculaas", function() {
 
-	it("zou een hoge som moete zijn voor een Hasseltse speculaas met veel ingrediënten", function() {
+	it("zou een hoge som moeten zijn voor een Hasseltse speculaas met veel ingrediënten", function() {
 		var hasseltseSpecuclaas = {
 			boter: 500,
 			bloem: 500,

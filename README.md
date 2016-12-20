@@ -4,7 +4,11 @@ Oefeningen voor http://wgroeneveld.github.io/tdd-course
 
 ## Technologie
 
-In Javascript. Test Harnas met Jasmine. [Zie ook Jasmine documentatie](https://jasmine.github.io/).
+Voorkeur voor Javascript. Test Harnas met Jasmine. [Zie ook Jasmine documentatie](https://jasmine.github.io/).
+
+Andere talen zijn ook mogelijk, zie submapjes per taal.
+
+Onderstaande voorbeeld staat in Javascript uitgelegd. 
 
 ## Opdracht beschrijving
 
