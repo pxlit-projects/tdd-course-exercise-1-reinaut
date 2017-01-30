@@ -1,4 +1,10 @@
 
 function beoordeelSpeculaas(speculaas) {
-	return -1;	// OEI?
+	var som = 0;
+	for (var prop in speculaas) if (speculaas.hasOwnProperty(prop)) {
+		if (typeof speculaas[prop] === "number") {
+			som += speculaas[prop];
+		}
+	}
+	return som;
 }
